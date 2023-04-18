@@ -8,9 +8,10 @@ spec:
     app: frontend
   ports:
     - protocol: TCP
+      name: frontend
       port: 80
       targetPort: 80
     - protocol: TCP
+      name: backend
       port: 5000
       targetPort: 5000
-    
